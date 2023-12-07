@@ -25,7 +25,7 @@ app.use('/api/users', require('./routes/api/users'));
 app.use('/api/auth', require('./routes/api/auth'));
 app.use('/api/profile', require('./routes/api/profile'));
 app.use('/api/posts', require('./routes/api/posts'));
-/* Look for env variable called PORT when deployed to herokou it will get port number OR listen locally on 5000. */
+/* Look for env variable called PORT when deployed it will get port number OR listen locally on 5000. */
 const PORT = process.env.PORT || 5000;
 
 /* Listen to app variable on port, added callback message once it connects */
