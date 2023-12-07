@@ -1,3 +1,5 @@
+/* In summary, this file sets up routes for creating, retrieving, updating, and deleting posts, as well as liking/unliking posts and commenting on/deleting comments from posts. The routes are protected by authentication middleware (auth), and input validation is implemented using the express-validator library. The file follows RESTful conventions for API design. */
+
 const express = require('express');
 const router = express.Router()
 const { check, validationResult } = require('express-validator');

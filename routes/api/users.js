@@ -1,3 +1,5 @@
+/* In summary, this code defines a route for user registration, including input validation, password encryption, and the generation of a JWT upon successful registration. The user's information is stored in a database, and the JWT can be used for authentication in subsequent requests. */
+
 const express = require('express');
 const router = express.Router();
 const gravatar = require('gravatar');

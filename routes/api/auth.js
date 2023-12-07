@@ -1,3 +1,6 @@
+/* In summary, this file sets up routes for testing authentication and user authentication using JWTs. It utilizes middleware for authentication, bcrypt for password comparison, and express-validator for input validation. The routes are designed to return appropriate responses based on the success or failure of authentication processes. */
+
+
 const express = require('express');
 const router = express.Router()
 const bcrypt = require('bcryptjs');

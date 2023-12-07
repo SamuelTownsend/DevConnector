@@ -1,3 +1,6 @@
+/* In summary, this file sets up a basic Express application, connects it to a database, defines routes for various API endpoints, and starts a server to handle incoming requests. The application follows a modular structure, with route handlers and database configuration in separate files. */
+
+
 /* Calling in Express */
 const express = require('express');
 

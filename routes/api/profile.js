@@ -1,3 +1,5 @@
+/* In summary, this file provides routes for managing user profiles, including creating, updating, and deleting profiles, adding and removing experience and education, retrieving profiles, and fetching GitHub repositories. The routes are protected by authentication middleware (auth), and input validation is implemented using the express-validator library. The file follows RESTful conventions for API design. */
+
 const express = require('express');
 const router = express.Router()
 const auth = require('../../middleware/auth')

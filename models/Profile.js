@@ -1,3 +1,5 @@
+/* In summary, this file defines a Mongoose schema for a user profile, specifying the structure and constraints of profile documents. It exports a Mongoose model named 'Profile' based on this schema, providing a convenient way to interact with user profile data in a MongoDB database. Developers can use this model to perform operations such as creating, querying, updating, and deleting profile documents in the associated MongoDB collection. */
+
 const mongoose = require('mongoose');
 
 const ProfileSchema = new mongoose.Schema({
